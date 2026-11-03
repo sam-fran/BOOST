@@ -1,0 +1,14 @@
+BOOST
+
+1 byte, plus additional arguments
+
+mode: 4b
+sub-opcode: 4b
+
+Subopcodes and argument count based on mode:
+
+code  args  name            description
+
+0000  1     ALU (address)   subop goes to the alu (see ALU+), the argument corresponds to two registers, each a 4 bit address, passed to the ALU
+0001  2     ALU (immediate) subop goes to the alu (see ALU+), the four highest bits of the first as an address of a register and the second an immediate argument both passed to the ALU
+0010  1     COND            subop goes to the cond (see COND+), the argument corresponds to two registers, each a 4 bit address, passed to the COND
