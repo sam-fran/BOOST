@@ -3,8 +3,8 @@ COND+
 If a bit is set and its corresponding condition is true then the output is high
 
 1000 - arg 1 = arg 2
-0100 - arg 1 > arg 2
-0010 - arg 1 < arg 2
+0100 - arg 1 < arg 2
+0010 - arg 1 > arg 2
 0001 - replace arg 2 with 0
 
-Note: this layout allows more than you might think, like 0110 checking if they are not equal.
+(Note: this layout allows more than you might think, like 0110 checking if they are not equal.)
